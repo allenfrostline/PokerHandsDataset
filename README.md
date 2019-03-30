@@ -17,7 +17,7 @@ Eventually there're 10,233,955 hands in `hands.json` and 437,862 in `hands_valid
 
 ## Data Inspection
 
-You may run the following code to inspect hands in their original order. Any time you'd like to stop browsing, you can just use `ctrl+c` to interrupt the process.
+You may run the following code to inspect hands in their original order. Any time you'd like to stop browsing, you can just use `Ctrl+C` to interrupt the process.
 
 ```bash
 python3 browse.py                                 # print hands in a formatted way
