@@ -17,13 +17,37 @@ Eventually there're 10,233,955 hands in `hands.json` and 437,862 in `hands_valid
 
 ## Data Inspection
 
-You may run the following code to inspect hands in their original order. Any time you'd like to stop browsing
+You may run the following code to inspect hands in their original order. Any time you'd like to stop browsing, you can just use `ctrl+c` to interrupt the process.
 
 ```bash
 python3 browse.py                                 # print hands in a formatted way
 ```
 
-<img src="browsing_screenshot.png" width="50%">
+    ############################################################
+       time : 199612            id : 2093
+      board : ['Qd', '6s', 'Td', 'Qc', 'Jh']
+       pots : [(2, 60), (2, 60), (2, 60), (2, 60)]
+    players : 
+                             Tiger (#1)                         
+    {'action': 30,
+     'bankroll': 2922,
+     'bets': [{'actions': ['B', 'r'], 'stage': 'p'},
+              {'actions': ['k'], 'stage': 'f'},
+              {'actions': ['k'], 'stage': 't'},
+              {'actions': ['k'], 'stage': 'r'}],
+     'pocket_cards': ['9s', 'Ac'],
+     'winnings': 30}
+    · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · 
+                            jvegas2 (#2)                        
+    {'action': 30,
+     'bankroll': 139401,
+     'bets': [{'actions': ['B', 'c'], 'stage': 'p'},
+              {'actions': ['k'], 'stage': 'f'},
+              {'actions': ['k'], 'stage': 't'},
+              {'actions': ['k'], 'stage': 'r'}],
+     'pocket_cards': ['9c', 'As'],
+     'winnings': 30}
+    ############################################################
 
 ## References
 
