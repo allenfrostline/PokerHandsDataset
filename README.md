@@ -23,6 +23,8 @@ You may run the following code to inspect hands in their original order. Any tim
 python3 browse.py                                 # print hands in a formatted way
 ```
 
+The script lists extracted hands history as below.
+
     ############################################################
        time : 199612            id : 2093
       board : ['Qd', '6s', 'Td', 'Qc', 'Jh']
